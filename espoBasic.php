@@ -71,3 +71,5 @@ public function deleteUsersFromTeam($teamId, $userIds, $cache = false)
 $endpoint = 'Team/' . $teamId . '/users';
 return $this->sendBasicAuthorizationRequest('DELETE', $endpoint, $userIds, $cache);
 }
+
+//add more methods here
